@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "funcs.h"
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
@@ -105,7 +104,7 @@ void menu_item_2(void) {
     printf("Enter waveform samples separated by spaces:\n");
     
     //initialises variables
-    char buffer[400000];
+    char buffer[10048];
     double samples[2048];
     int count=0;
 
