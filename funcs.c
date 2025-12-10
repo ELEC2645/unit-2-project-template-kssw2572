@@ -116,7 +116,7 @@ void menu_item_2(void) {
     }
     buffer[strcspn(buffer,"\r\n")] = '\0';
 
-    //loops through each token and separates them by space storing them in array
+    //loops through each token and separates them by space and stores them in array
     char *token = strtok(buffer, " ");
     while(token && count<2048){
         char *endptr;
